@@ -1,0 +1,14 @@
+[workspace]
+authors = ["brisenodaniel <dbrisenoservin@gmail.com>"]
+channels = ["conda-forge"]
+name = "Kerr-cat"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+jupyter = ">=1.1.1,<2"
+qutip = ">=5.2.0,<6"
+numpy = ">=2.3.0,<3"
+matplotlib = ">=3.10.3,<4"
